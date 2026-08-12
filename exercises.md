@@ -113,8 +113,6 @@ Full pipeline:
 - `run_regression(new_results, baseline_results)`
 - `identify_failures(results, threshold)`
 
-`BenchmarkRunner.run()` phải truyền `pair.retrieved_contexts` vào
-`run_full_eval()`. Report phải có average của hai retrieval metrics.
 
 ### Task 5 — FailureAnalyzer
 
@@ -129,8 +127,6 @@ Kiểm tra:
 pytest tests/ -v
 ```
 
-`rerank_by_overlap()` là TODO bonus của Exercise 3.5. Test tương ứng được skip
-nếu bạn chưa làm bonus.
 
 ---
 
